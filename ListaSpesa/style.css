@@ -1,0 +1,24 @@
+.boxesterno {
+    margin: 10px;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.title {
+    color: red;
+    margin: 10px;
+}
+
+.title2 {
+    padding: 10px;
+    background-color: lime;
+}
+
+ul {
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.selected {
+    color: blue;
+}

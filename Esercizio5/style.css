@@ -1,0 +1,19 @@
+.titolo {
+    color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    .titolo {
+        color: green;
+    }
+}
+
+.img {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .img {
+        width: 49%;
+    }
+}

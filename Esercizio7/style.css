@@ -1,0 +1,26 @@
+.primo {
+    background-color: magenta;
+    height: 200px;
+    width: 100px;
+    transition: all 0.2s ease-in;
+}
+.secondo {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    animation: loopColor 1s infinite;
+}
+
+.primo:hover {
+    margin-left: 50px;
+    background-color: orange;
+}
+
+@keyframes loopColor {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: red;
+    }
+}
